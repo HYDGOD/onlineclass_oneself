@@ -13,7 +13,7 @@ public class Test009 {
      */
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println(numbersSum(1594));
+        System.out.println(addOneToTen(10));
     }
 
     /**
