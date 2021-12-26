@@ -1,5 +1,5 @@
 package package_004;
-//听说很难，还是多看看吧,这里不是还顺了一手类和方法吗，多看看挺好的
+//听说很难，还是多看看吧,这里不是还顺了一手类和方法吗，多看看挺好的众数问题投票法最快
 /**
  * 好好理解这两个方法，一个递归，一个投票看起来挺重要
  */
@@ -45,7 +45,7 @@ class MethodRecursive{
      * @param right
      * @return
      */
-    public static int manyNumRecursiveInternal(int[] nums , int left , int right){
+    public  static int manyNumRecursiveInternal(int[] nums , int left , int right){
         //当所给区间只有一个元素
         if(left == right){
             return nums[left];
